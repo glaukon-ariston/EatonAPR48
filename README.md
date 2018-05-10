@@ -1,5 +1,5 @@
 # EatonAPR48
-[SweetScape 010Editor's](https://www.sweetscape.com/010editor/repository/templates/file_info.php?file=EatonAPR48.bt&type=0&sort=) script for exploring and modifying Eaton APR48 power supply's EEPROM structure (in order to be able to change the output voltage). 
+This is a [SweetScape 010Editor's](https://www.sweetscape.com/010editor/repository/templates/file_info.php?file=EatonAPR48.bt&type=0&sort=) script for exploring and modifying Eaton APR48 power supply's EEPROM structure (in order to be able to change the output voltage). 
 
 Note that Eaton APR48 is an older version of Eaton APR48-3G power supply.
 
