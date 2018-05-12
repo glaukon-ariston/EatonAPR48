@@ -16,7 +16,7 @@ You need to have 010Editor installed to use this script. Then follow the steps
 
 # Hardware
 
-This is from _APR48_APU48_E_Letter.pdf:_
+This is from _[APR48_APU48_E_Letter.pdf](http://lit.powerware.com/ll_download.asp?file=APR48_APU48_E_Letter.pdf):_
 
 The APR48 has a 1500W output and it is designed for operation at up to 70°C (158°F) 
 and under a wide range of AC power conditions.
