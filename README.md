@@ -42,5 +42,20 @@ and under a wide range of AC power conditions.
     - Dimensions (H,W,D overall): 133mm [5.25”], 13E: 66mm [2.6”], 257mm [10.1”]
     - Weight: 1.9kg [4.2lb ]
 
-A helpful reverse engineering reference can be found [here](https://electrotransport.ru/ussr/index.php?topic=21127.msg490810#msg490810).
+A helpful reverse engineering reference can be found [here](https://electrotransport.ru/ussr/index.php?topic=21127.msg490810#msg490810) and here [here](https://endless-sphere.com/forums/viewtopic.php?f=2&t=66169#p995130). They deal with the APR48-3G model whose EEPROM structure is slightly different than APR48.
+
+## APR48 Innards
+
+![APR48](./images/20180505_164400.jpg "APR48")
+
+![APR48](./images/20180505_164520.jpg "APR48")
+
+![APR48](./images/20180505_165326.jpg "APR48")
+
+![APR48](./images/20180505_165416.jpg "APR48")
+
+![APR48](./images/20180505_165505.jpg "APR48")
+
+For pictures of the assembled power supply see [here](https://endless-sphere.com/forums/viewtopic.php?t=93764) and [here](https://imgur.com/a/TzfKa).
+
 
