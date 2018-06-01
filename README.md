@@ -10,7 +10,18 @@ You need to have 010Editor installed to use this script. Then follow the steps
 2. Template|Open Template... -> EatonAPR48.bt
 3. Template|Run Template
 4. Expand **the first** _struct EatonEEPROMParams_ and change the _outputVoltage_.
-5. File|Save As... -> EatonAPR48_EEPROM_145294054_modified.bin
+5. File|Save As... -> EatonAPR48_EEPROM_145294054_56V_23A.bin
+5. File|Save As... -> EatonAPR48_EEPROM_145338245_56V_23A.bin
+6. srec_cat EatonAPR48_EEPROM_145294054_56V_23A.bin -binary -o EatonAPR48_EEPROM_145294054_56V_23A.hex -intel
+6. srec_cat EatonAPR48_EEPROM_145338245_56V_23A.bin -binary -o EatonAPR48_EEPROM_145338245_56V_23A.hex -intel
+7. "C:\Program Files (x86)\khazama.com\Khazama AVR Programmer\Khazama AVR Programmer.exe"
+    Command | Read Chip Signature -> 0x1e9502
+    Command | Read EEPROM to Buffer
+    Command | Verify EEPROM
+    File | Load EEPROM File to Buffer
+        EatonAPR48_EEPROM_145294054_56V_23A.hex
+        EatonAPR48_EEPROM_145338245_56V_23A.hex
+    Command | Write EEPROM Buffer to Chip
 
 ![010Editor Workspace](./SweetScape_010Editor.PNG "010Editor Workspace")
 
@@ -56,6 +67,6 @@ A helpful reverse engineering reference can be found [here](https://electrotrans
 
 ![APR48](./images/20180505_165505.jpg "APR48")
 
-For pictures of the assembled power supply see [here](https://endless-sphere.com/forums/viewtopic.php?t=93764) and [here](https://imgur.com/a/TzfKa).
+For the pictures of the assembled power supply see [here](https://endless-sphere.com/forums/viewtopic.php?t=93764) and [here](https://imgur.com/a/TzfKa).
 
 
