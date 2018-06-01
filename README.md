@@ -13,11 +13,12 @@ You need to have 010Editor installed to use this script. Then follow the steps
 5. File|Save As... -> EatonAPR48_EEPROM_145294054_56V_23A.bin
    
    File|Save As... -> EatonAPR48_EEPROM_145338245_56V_23A.bin
-
-6. srec_cat EatonAPR48_EEPROM_145294054_56V_23A.bin -binary -o EatonAPR48_EEPROM_145294054_56V_23A.hex -intel
+6. ```
+   srec_cat EatonAPR48_EEPROM_145294054_56V_23A.bin -binary -o EatonAPR48_EEPROM_145294054_56V_23A.hex -intel
    srec_cat EatonAPR48_EEPROM_145338245_56V_23A.bin -binary -o EatonAPR48_EEPROM_145338245_56V_23A.hex -intel
-7. "C:\Program Files (x86)\khazama.com\Khazama AVR Programmer\Khazama AVR Programmer.exe"
-   
+   ```
+7. `"C:\Program Files (x86)\khazama.com\Khazama AVR Programmer\Khazama AVR Programmer.exe"`
+   ```
    Command | Read Chip Signature -> 0x1e9502
    Command | Read EEPROM to Buffer
    Command | Verify EEPROM
@@ -25,6 +26,7 @@ You need to have 010Editor installed to use this script. Then follow the steps
       EatonAPR48_EEPROM_145294054_56V_23A.hex
       EatonAPR48_EEPROM_145338245_56V_23A.hex
    Command | Write EEPROM Buffer to Chip
+   ```
 
 ![010Editor Workspace](./SweetScape_010Editor.PNG "010Editor Workspace")
 
